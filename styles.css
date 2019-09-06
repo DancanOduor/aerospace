@@ -1,0 +1,86 @@
+.body1{
+   
+background-size: cover;
+   background-repeat: no-repeat;
+    background-image:url("https://2.bp.blogspot.com/-NJSua9wyC_M/UpNlFxN5DFI/AAAAAAAAEfY/8NvGVr5Wh2A/s1600/AOA5.jpg");
+
+}
+
+.body2{
+    background-size: cover;
+background-repeat: no-repeat;
+background-image: url("https://cdn.pixabay.com/photo/2013/02/05/15/18/aircraft-78060_960_720.jpg");
+}
+.body3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Top_of_Atmosphere.jpg/1024px-Top_of_Atmosphere.jpg");
+}
+nav{
+    float: right;
+    margin-top: 0;
+}
+nav > ul > li{
+    display: inline-block;
+}
+nav > ul > li > a {
+color:white;
+text-decoration: none;
+padding: 5px;
+font-size: 30px;
+}
+
+nav > ul > li > a:hover {
+    background-color: #74AAFC;
+
+}
+ 
+.head  {
+color:white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#space{
+    color:red;
+    text-align: center;
+    background-color: red;
+}
+
+.responsive{
+    height: auto;
+    width:100%;
+}
+
+.footer{
+    background-color:none;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.about>p {
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #one{
+      flex-direction: column;
+      padding:4%;
+  }
+
+  .content{
+      display: flex;
+      justify-content: space-around;
+  }
